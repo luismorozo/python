@@ -23,7 +23,6 @@ def conectar():
     except  Error as e:
         messagebox.showerror("Error,",str(e))
 
-
 def validate_entry(text, new_text):
     if len(new_text) > 4:
         return False
