@@ -90,6 +90,7 @@ class EmpleadoApp:
         self.apellido.focus()  # Siempre ceder foco al siguiente campo
         
 
+
     def funcod(self):
         """Cargar los datos del empleado desde la base de datos."""
         conexion = validar.conectar()
